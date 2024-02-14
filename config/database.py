@@ -1,7 +1,11 @@
-from pymongo import MongoClient
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
 
-client = MongoClient("mongodb+srv://root:1234@cluster0.6d1yzmv.mongodb.net/?retryWrites=true&w=majority")
+SQLALCHEMY_DATABASE_URL = 'sqlite:///./student.db'
 
-db = client.student
+engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={'check_same_thread': False})
 
-collection_name = db["student_collection"]
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+Base = declarative_base()

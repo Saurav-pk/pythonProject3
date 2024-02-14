@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ed692d-92e1-4098-84a6-523fbf7a105a" name="Changes" comment="">
+    <list default="true" id="c4ed692d-92e1-4098-84a6-523fbf7a105a" name="Changes" comment="updated">
+      <change afterPath="$PROJECT_DIR$/auth/route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/todos.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/route.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/route.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/schema/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/schema/schemas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +43,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.route.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user432/Downloads/fastapi-mongo-withJWTauth-main/fastapi-mongo-withJWTauth-main&quot;
   }
 }</component>
   <component name="SharedIndexes">
@@ -61,6 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707365644936</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <option name="closed" value="true" />
+      <created>1707744838000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707744838000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
